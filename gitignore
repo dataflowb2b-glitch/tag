@@ -1,0 +1,19 @@
+# Streamlit secrets — NUNCA subir para o GitHub
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Arquivos gerados localmente
+etiquetas_*/
+*.png
+recebimento_*.xml
+
+# Sistema
+.DS_Store
+Thumbs.db
